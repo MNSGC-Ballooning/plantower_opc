@@ -3,17 +3,17 @@ void updatePT2(){
   if (readPMSdata2(&pms2Serial)) {
 
 // if data is receieved, log it
-    dataLog2 += data.particles_03um;
+    dataLog2 += data2.particles_03um;
     dataLog2 += ",";
-    dataLog2 += data.particles_05um;
+    dataLog2 += data2.particles_05um;
     dataLog2 += ",";
-    dataLog2 += data.particles_10um;
+    dataLog2 += data2.particles_10um;
     dataLog2 += ",";
-    dataLog2 += data.particles_25um;
+    dataLog2 += data2.particles_25um;
     dataLog2 += ",";
-    dataLog2 += data.particles_50um;
+    dataLog2 += data2.particles_50um;
     dataLog2 += ",";
-    dataLog2 += data.particles_100um;
+    dataLog2 += data2.particles_100um;
     dataLog2 += ",";
     
 
